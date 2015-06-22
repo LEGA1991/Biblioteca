@@ -5,10 +5,11 @@
  */
 package ConcreteComponente;
 
+import Componente.*;
 /**
  *
  * @author adiseño.2015
  */
-public class AutorConcreto {
+public class AutorConcreto implements InterfaceInfLibro {
     
 }

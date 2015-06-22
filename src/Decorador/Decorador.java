@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ConcreteComponente;
+package Decorador;
 
-import Componente.*;
 /**
  *
  * @author adiseño.2015
  */
-public class LibroConcreto implements InterfaceInfLibro{
+public abstract class Decorador {
     
 }
