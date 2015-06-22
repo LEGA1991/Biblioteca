@@ -12,22 +12,22 @@ import javax.persistence.*;
  */
 
 @Entity
-public class autor {
+public class autor implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int AId;
+    private int id;
     private String Nombre;
     
     public autor(){
         
     }
 
-    public int getAId() {
-        return AId;
+    public int getId() {
+        return id;
     }
 
-    public void setAId(int AId) {
-        this.AId = AId;
+    public void setId(int AId) {
+        this.id = AId;
     }
 
     public String getNombre() {
