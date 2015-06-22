@@ -5,6 +5,7 @@
  */
 package modelo;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,10 +17,10 @@ import javax.persistence.ManyToOne;
  * @author adiseño.2015
  */
 @Entity
-public class libro {
+public class libro implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int Id;
+    private int id;
     private String Nombre;
     private String ISB;
     private String Fecha;
@@ -37,11 +38,11 @@ public class libro {
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int Id) {
-        this.Id = Id;
+        this.id = Id;
     }
 
     public String getNombre() {
