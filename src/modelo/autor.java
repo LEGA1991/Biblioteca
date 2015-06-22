@@ -17,6 +17,10 @@ public class autor {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int AId;
     private String Nombre;
+    
+    public autor(){
+        
+    }
 
     public int getAId() {
         return AId;
