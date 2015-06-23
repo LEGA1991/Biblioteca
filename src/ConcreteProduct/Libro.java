@@ -6,14 +6,13 @@
 package ConcreteProduct;
 import Controlador.libroJpaController;
 import javax.persistence.EntityManagerFactory;
+import Producto.InformacionLibro;
 /**
  *
  * @author adiseño.2015
  */
-public class Libro extends libroJpaController {
+public class Libro extends InformacionLibro{
 
-    public Libro(EntityManagerFactory emf) {
-        super(emf);
-    }
+  
     
 }
