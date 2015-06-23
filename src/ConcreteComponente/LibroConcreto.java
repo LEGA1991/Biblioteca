@@ -10,6 +10,6 @@ import Componente.*;
  *
  * @author adiseño.2015
  */
-public class LibroConcreto implements InterfaceInfLibro{
+public class LibroConcreto extends InterfaceInfLibro{
     
 }

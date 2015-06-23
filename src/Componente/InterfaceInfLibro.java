@@ -9,6 +9,6 @@ package Componente;
  *
  * @author adiseño.2015
  */
-public interface InterfaceInfLibro {
+public abstract class InterfaceInfLibro {
     
 }
