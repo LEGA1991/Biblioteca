@@ -9,6 +9,6 @@ package Producto;
  *
  * @author adiseño.2015
  */
-public interface InformacionLibro {
+public abstract class InformacionLibro {
     
 }

@@ -4,11 +4,16 @@
  * and open the template in the editor.
  */
 package ConcreteProduct;
-
+import Controlador.libroJpaController;
+import javax.persistence.EntityManagerFactory;
 /**
  *
  * @author adiseño.2015
  */
-public class Libro {
+public class Libro extends libroJpaController {
+
+    public Libro(EntityManagerFactory emf) {
+        super(emf);
+    }
     
 }
